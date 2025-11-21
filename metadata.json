@@ -1,0 +1,5 @@
+{
+  "name": "PaperLingo",
+  "description": "A researcher-focused tool to extract glossaries and explain complex terms from PDF papers using Gemini AI.",
+  "requestFramePermissions": []
+}
