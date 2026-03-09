@@ -11,7 +11,7 @@ export const GlossaryCard: React.FC<GlossaryCardProps> = ({ item }) => {
     <div className="bg-white dark:bg-slate-800 p-4 rounded-lg shadow-sm border border-slate-200 dark:border-slate-700 hover:border-sky-200 dark:hover:border-sky-500 transition-colors">
       <div className="flex items-start gap-3">
         <div className="mt-1 min-w-[24px]">
-          <div className="w-6 h-6 rounded-full bg-sky-100 dark:bg-sky-900/40 text-sky-700 dark:text-sky-400 flex items-center justify-center text-xs font-bold">
+          <div className="w-6 h-6 rounded-full bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-400 flex items-center justify-center text-xs font-bold">
             <BookOpen className="w-3 h-3" />
           </div>
         </div>

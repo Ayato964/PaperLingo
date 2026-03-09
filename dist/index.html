@@ -1,37 +1,38 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://picsum.photos/32/32" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PaperLingo - AI Research Assistant</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: {
-                50: '#f0f9ff',
-                100: '#e0f2fe',
-                600: '#0284c7',
-                700: '#0369a1',
-                800: '#075985',
-                900: '#0c4a6e',
-              }
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://picsum.photos/32/32" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PaperLingo - AI論文アシスタント</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
             }
           }
         }
       }
-    </script>
+    }
+  </script>
 
-<link rel="stylesheet" href="/index.css">
   <script type="importmap">
 {
   "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "vite": "https://aistudiocdn.com/vite@^7.2.4",
     "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
     "pdfjs-dist": "https://aistudiocdn.com/pdfjs-dist@^5.4.394",
@@ -40,9 +41,11 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/PaperLingo/assets/index-BWJVERZe.js"></script>
+  <script type="module" crossorigin src="/assets/index-B3XkjED8.js"></script>
 </head>
-  <body class="bg-slate-50 text-slate-900 antialiased">
-    <div id="root"></div>
-  </body>
+
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <div id="root"></div>
+</body>
+
 </html>
