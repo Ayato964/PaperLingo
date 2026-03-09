@@ -1,3 +1,5 @@
+export type Language = 'English' | 'Japanese';
+
 export interface GlossaryItem {
   term: string;
   definition: string;
